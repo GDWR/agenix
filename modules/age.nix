@@ -276,6 +276,7 @@ in {
       system.activationScripts.agenixInstall = {
         text = installSecrets;
         deps = [
+          "hostkeyInit"
           "agenixNewGeneration"
           "specialfs"
         ];
